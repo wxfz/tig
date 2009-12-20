@@ -12,17 +12,11 @@ Before tig-1.0
 
  - Wrap long lines to reduce horizontal scrolling.
 
- - Rewrite revgraph handling.
+ - Revgraph improvements.
 
-   The commit structure should be expanded to have a parent member,
-   which points to the parent commits.
-
-    - Make main view support navigating the revision graph using the
-      parent action.
-
-    - Color the revgraph to make it easier to follow branches.
-
-   Other revgraph improvements:
+    - The commit structure should be expanded to have a parent member,
+      which points to the parent commits and the main view should
+      support navigating the revision graph using the parent action.
 
     - Show from which branch heads and tags a commit is reachable, and
       perhaps which tag is the latest among the ones reachable from
