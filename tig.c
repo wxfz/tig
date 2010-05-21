@@ -7108,7 +7108,7 @@ get_input(int prompt_position)
 		/* wgetch() with nodelay() enabled returns ERR when
 		 * there's no input. */
 		if (key == ERR) {
-
+		  usleep(800);
 		} else if (key == KEY_RESIZE) {
 			int height, width;
 
